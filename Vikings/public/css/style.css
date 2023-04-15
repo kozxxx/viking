@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+}
+   nav a {
+    font-size: 25px;
+    color:grey;
+   }
+   nav a:hover {
+    color:white;
+   }
+   div.introduction button{
+    font-size: 20px;
+    color:white;
+    background-color: orange;
+   }
+   div.introduction button:hover{
+    background-color: darkorange;
+   }
+   footer{
+    background-color: white;
+    color: black;
+   }
+   .dropdown {
+    position: relative;
+    display: inline-block;
+    color: gray;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown  p:hover{
+    color: white;
+  }
+  nav p{
+    font-size:25px
+  }
+  footer li{
+    color:blue
+  }
+  table, th,td{
+    border: 1px solid black
+  }
+  .form-popup{
+    color: black;
+    background-color: white;
+    margin:200px;
+    height:500px;
+    font-size: 30px;
+    margin-top: 100px
+  }
+  .btn{
+    background-color: orange;
+  }
+  .btn:hover{
+    background-color: darkorange;
+  }
+  .form-popup a{
+    color: blue;
+    margin-left: 1000px;
+  }
